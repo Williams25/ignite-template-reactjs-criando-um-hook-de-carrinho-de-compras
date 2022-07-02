@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { darken, lighten } from 'polished';
+import styled from "styled-components";
+import { darken, lighten } from "polished";
 
 export const Container = styled.div`
   padding: 30px;
@@ -23,7 +23,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, "#7159c1")};
       }
     }
   }
@@ -69,6 +69,7 @@ export const ProductTable = styled.table`
       color: #666;
       padding: 6px;
       width: 50px;
+      text-align: center;
     }
   }
 
@@ -84,13 +85,13 @@ export const ProductTable = styled.table`
 
     &:hover {
       svg {
-        color: ${darken(0.06, '#7159c1')};
+        color: ${darken(0.06, "#7159c1")};
       }
     }
 
     &:disabled {
       svg {
-        color: ${lighten(0.25, '#7159c1')};
+        color: ${lighten(0.25, "#7159c1")};
         cursor: not-allowed;
       }
     }
